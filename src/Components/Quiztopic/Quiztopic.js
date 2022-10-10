@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Quiztopic = ({ topic }) => {
     const { id, name, logo, total } = topic
     return (
-        <div className='lg:mt-5 mx-2'>
+        <div className='lg:mt-5'>
             <div className="max-w-sm">
                 <Card imgSrc={logo}>
                     <Link to={`/quiz/${id}`}>
