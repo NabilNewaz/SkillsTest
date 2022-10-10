@@ -1,9 +1,24 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Mainlayout from './Components/Mainlayout/Mainlayout';
+import Quiztopics from './Components/Quiztopics/Quiztopics';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Mainlayout></Mainlayout>,
+      children: [
+        {
+          path: "/",
+          element: <Quiztopics></Quiztopics>
+        }
+      ]
+    }
+  ])
   return (
-    <div className="App">
-
+    <div className="container mx-auto">
+      <RouterProvider router={router} />
     </div>
   );
 }
