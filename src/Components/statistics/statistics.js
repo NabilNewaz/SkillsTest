@@ -5,7 +5,7 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAx
 const Statistics = () => {
     const QuizData = useLoaderData()
     return (
-        <div className='lg:px-96 md:mt-5 px-0'>
+        <div className='lg:px-96 md:mt-5 px-0 mt-5'>
             <div>
                 <ResponsiveContainer width='92%' height={400}>
                     <BarChart data={QuizData.data}>
