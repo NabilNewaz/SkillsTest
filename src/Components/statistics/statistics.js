@@ -4,7 +4,6 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAx
 
 const Statistics = () => {
     const QuizData = useLoaderData()
-    console.log(QuizData)
     return (
         <div className='lg:px-96 md:mt-5 px-0'>
             <div className='hidden md:block'>
