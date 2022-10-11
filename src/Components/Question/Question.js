@@ -35,7 +35,7 @@ const Question = ({ question }) => {
         <div className='mt-5'>
             <ToastContainer />
             <Card>
-                <div className='flex justify-between'>
+                <div className='flex justify-between justify-center'>
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white max-h-screen ">
                         {question.question.slice(3, -4)}
                     </h5>

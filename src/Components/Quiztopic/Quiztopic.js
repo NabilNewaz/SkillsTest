@@ -7,7 +7,7 @@ const Quiztopic = ({ topic }) => {
     return (
         <div className='lg:mt-5'>
             <div className="max-w-sm">
-                <Card imgSrc={logo}>
+                <Card imgSrc={logo === 'https://live.staticflickr.com/65535/52412639027_5692c15b3f_o.png' ? 'https://i.ibb.co/qBTGWXR/52412639027-5692c15b3f-o.png' : logo}>
                     <Link to={`/quiz/${id}`}>
                         <h5 className="text-2xl font-bold text-gray-900">
                             {name}
