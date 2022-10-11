@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './Components/Blog/Blog';
 import Mainlayout from './Components/Mainlayout/Mainlayout';
+import Notfound from './Components/Notfound/Notfound';
 import Quiz from './Components/Quiz/Quiz';
 import Quiztopics from './Components/Quiztopics/Quiztopics';
 import Statistics from './Components/Statistics/Statistics';
@@ -40,7 +41,7 @@ function App() {
         },
         {
           path: "*",
-          element: <div>not found</div>
+          element: <Notfound></Notfound>
         }
       ]
     }
