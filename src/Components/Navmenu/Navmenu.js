@@ -9,7 +9,7 @@ const Navmenu = () => {
                 <Navbar.Brand>
                     <NavLink to="/">
                         <span className="text-2xl font-bold text-blue-700">
-                            Skill_Test
+                            Skills_Test
                         </span>
                     </NavLink>
                 </Navbar.Brand>
